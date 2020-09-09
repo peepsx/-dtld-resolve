@@ -1,0 +1,34 @@
+{
+    "name": "@dtld/resolve",
+    "version": "1.0.0",
+    "description": "Library for resolving a dWeb key for a given dTLD.",
+    "main": "index.js",
+    "scripts": {
+      "test": "tape test.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/peepsx/dtld-resolve.git"
+    },
+    "keywords": [
+      "dtld",
+      "dweb",
+      "dnames",
+      "dbrowser"
+    ],
+    "author": "Jared Rice Sr. <jared@peepsx.com>",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/peepsx/dtld-resolve/issues"
+    },
+    "homepage": "https://dwebx.org",
+    "depedencies": {
+      "@dtld/lookup": "^1.0.0",
+      "debug": "*",
+      "events": "*"
+    },
+    "devDependencies": {
+      "tape": "*"
+    },
+    "copyright": "2020 PeepsLabs"
+  }
