@@ -1,5 +1,7 @@
 import { Lookup } from '@dtld/lookup';
 import { EventEmitter } from 'events';
+var Promise = require('promise');
+
 
 // Global constants for distributed error page keys (dDrive keys)
 const DWEB_NO_DOMAIN_HASH = null; //800 error
